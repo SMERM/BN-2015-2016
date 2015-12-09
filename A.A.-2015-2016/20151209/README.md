@@ -14,6 +14,7 @@
 	* rappresentazione sul piano (3d) della trasformata zeta
 
 ## Esercizi per casa
+* plottare il filtro realizzato in classe nel tempo
 
 * variare i coefficienti:
   * cosa succede alla risposta in frequenza?
