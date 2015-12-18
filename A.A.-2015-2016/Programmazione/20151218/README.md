@@ -3,6 +3,7 @@
 Introduzione alla programmazione:
 
 * overview dei linguaggi compilati: `C`, `C++`, `Java`
+  [lavagna](./P_20151218_101326.jpg)
 * `C`:
   * funzioni, compilazione, `make`
   * strutture dati
