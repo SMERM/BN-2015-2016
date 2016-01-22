@@ -8,23 +8,23 @@
 ## Java
 
 * Ereditarietà singola:
-  ```java
-  public class Studente extends Persona {
-  }
-  ```
+```java
+public class Studente extends Persona {
+}
+```
 * `interfaces` classi astratte che servono a (far) implementare set di metodi
   in ciascuna classe:
-  ```java
-  public interface Anagrafica {
-     public String nomeGet();
-     public String cognomeGet();
-     public void nomeSet(String s);
-     public void cognomeSet(String s);
-  }
-  public class Persona implements Anagrafica {
-     // implementa i metodi qui
-  }
-  ```
+```java
+public interface Anagrafica {
+   public String nomeGet();
+   public String cognomeGet();
+   public void nomeSet(String s);
+   public void cognomeSet(String s);
+}
+public class Persona implements Anagrafica {
+   // implementa i metodi qui
+}
+```
 
 ## Processing
 
