@@ -1,6 +1,8 @@
 # Lezione del 22 gennaio 2016
 
-![lavagna](./BN_I.jpg)
+![lavagna: differenza tra metodi di classe e metodi d'istanza](./BN_I_2.jpg)
+----
+![lavagna: ereditarietà multiple e `interfaces` o `mixins`](./BN_I.jpg)
 
 * Riscritto il programma `persona` e `studente` in:
   * `SuperCollider`
