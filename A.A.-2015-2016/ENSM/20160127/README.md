@@ -5,6 +5,8 @@
 * realizzazione di una DFT complessa in `octave` (*bin-synchronous*)
 * finestre: la necessità di una finestra asimmetrica
 * sincronia e asincronia con i bin
-* *windowing*
-* *zero-padding* come interpolazione
-* DFT complessa e funzione reale
+
+## Compiti per casa
+
+* plottare le finestre analitiche delle frequenze adiacenti alla frequenza
+  analizzata (nel tempo)
