@@ -1,32 +1,35 @@
 # Lezione del 05 febbraio 2016
 
-* Riscrivere il programma `persona` e `studente` in:
+![lavagna 1](https://goo.gl/photos/3hHt7XH5YoBBX4Ay8)
+
+![lavagna 2](https://goo.gl/photos/brUjNQbZZdfs6JPz8)
+
+## Argomenti
+
+* Test-driven Development
+* Behaviour-driven Development
+* tools per l'integrazione continua:
+  * https://travis-ci.org
+  * https://codeclimate.com
+* Riscrivere il programma `persona` in:
   * `Java`
-  * `processing`
-* procedere sulla struttura di `processing` e programmazione relativa
 
 ## Java
 
 * Ereditarietà singola:
 ```java
-public class Studente extends Persona {
+public class Persona{
+	public String nome, cognome;
+	public int numTelefono;
+	Persona(String n, String c, int num)
+	{
+		this.nome = n;
+		this.cognome = c;
+		this.numTelefono = num;
+	}
+	public void stampa()
+	{
+		System.out.println("Questo è il nome: " + nome + "\nQuesto è il cognome: " + cognome + "\nE puoi chiamarlo qui: " + numTelefono);
+	}
 }
 ```
-* `interfaces` classi astratte che servono a (far) implementare set di metodi
-  in ciascuna classe:
-```java
-public interface Anagrafica {
-   public String nomeGet();
-   public String cognomeGet();
-   public void nomeSet(String s);
-   public void cognomeSet(String s);
-}
-public class Persona implements Anagrafica {
-   // implementa i metodi qui
-}
-```
-
-## Processing
-
-* Com'è costruito `processing`
-* metodi di base di `PApplet`: `setup()` e `draw()`
