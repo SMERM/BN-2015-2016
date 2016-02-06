@@ -1,8 +1,8 @@
 # Lezione del 05 febbraio 2016
 
-[lavagna 1](https://goo.gl/photos/3hHt7XH5YoBBX4Ay8)
+![lavagna 1](./BN_I_20160205_1.jpg)
 
-[lavagna 2](https://goo.gl/photos/brUjNQbZZdfs6JPz8)
+![lavagna 2](./BN_I_20160205_2.jpg)
 
 ## Argomenti
 
