@@ -4,10 +4,9 @@
 
 ## Argomenti
 
-* Elaborazione di un sistema di composizione algoritmica in `supercollider`
-  * quadro generale
-  * moduli ritmici
-  * moduli frequenziali:
-    * prime forms
-    * armonie spettrali
-    * espansioni seriali
+* ANN neural networks
+  * realizzazione di un percettrone lineare
+
+## Per casa
+
+* realizzazione di un percettrone sigmoidale
