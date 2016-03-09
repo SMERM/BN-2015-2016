@@ -1,11 +1,10 @@
 # Lezione del 12 febbraio 2016
 
-* Riscrivere il programma `persona` in:
-  * `processing`
-* procedere sulla struttura di `processing` e programmazione relativa
 
-## Processing
+![whiteboard](./BN_I_20160212.jpg)
 
-* Com'è costruito `processing`
-* `jit compile`
-* metodi di base di `PApplet`: `setup()` e `draw()`
+## Argomenti
+
+* Elaborazione di un sistema di composizione algoritmica in `supercollider`
+  * quadro generale
+  * moduli ritmici

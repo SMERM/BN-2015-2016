@@ -12,6 +12,7 @@ t = [-dur/2:sinc:dur/2 - sinc];
 y = cos(w*t);
 %y = sin(w*t);
 output = zeros(size(f));
+%DFT
 for k = 1:window_size
 	anal = exp(-i*f(k)*2*pi*t);
 	y_anal = y.*anal;
