@@ -4,8 +4,12 @@ a.output
 )
 
 
-
 (
 a = LinearPerceptron.new.init([1, 432, 265, 123, -213]);
 a.output
+)
+
+(
+l = Layer.new.init([1]);
+l.output
 )
