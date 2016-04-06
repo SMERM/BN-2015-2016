@@ -10,6 +10,6 @@ a.output
 )
 
 (
-l = Layer.new.init([1]);
+l = Layer.new.init([1, 432, 265, 123, -213]);
 l.output
 )
