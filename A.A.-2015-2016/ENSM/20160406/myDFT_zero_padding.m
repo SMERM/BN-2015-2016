@@ -29,5 +29,7 @@ for k = 1:window_size
 	M_0_pad(k*2 - 1) = M_0(k);
 	M_0_pad(k*2) = M_0(k);
 end
-plot(f2, M_0_pad, f2, M_1)
-	axis([1000 3000])
+[x0, y0] = stairs(f2, M_0_pad);
+[x1, y1] = stairs(f2, M_1);
+plot(x0, y0, "-;lo-res (wsize=777);", "Linewidth", 3, x1, y1, "-;hi-res (wsize=1554 zero-padded);", "Linewidth", 4)
+axis([2000 3000 0 1.08])

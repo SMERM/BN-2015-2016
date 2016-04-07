@@ -1,10 +1,49 @@
-# Lezione del 4 aprile 2016
+# Lezione del 6 aprile 2016
+
+![whiteboard](./BN_I_20160406_1.jpg)
+
+![whiteboard](./BN_I_20160406_2.jpg)
 
 ## Argomenti
 
 * verifica dello *zero-padding* come interpolazione
-* introduzione alla STFT
-  * sequenza
-  * overlap/add
-  * hopsize
-  * trade-off risoluzione temporale/risoluzione frequenziale
+```octave
+%DFT con finestre adiacenti e zero padding
+f_c = 44100;
+sinc = 1/f_c;
+window_size = 777; %numero di campioni della finestra
+M = window_size; %numero di zeri
+bin_size = f_c/window_size;
+bin_size2 = f_c/(window_size+M);
+f = [-f_c/2:bin_size:f_c/2 - bin_size];
+f2 = [-f_c/2:bin_size2:f_c/2 - bin_size2];
+freq = 2500;
+%binnum = round((freq + f_c/2)/bin_size) + 1;
+w = freq*2*pi;
+dur = window_size*sinc;
+t = [-dur/2:sinc:dur/2 - sinc];
+y = cos(w*t);
+y_pad = zeros(1, window_size + M);
+y_pad(floor(M/2) + 1:floor(M/2) + window_size) = y;
+output = zeros(size(f));
+y_anal = zeros(window_size, window_size);
+%
+%DFT
+dft_0 = myDFT(y, f_c);
+dft_1 = myDFT(y_pad, f_c);
+%
+%
+M_0 = 2*abs(dft_0)/window_size;
+M_1 = 2*abs(dft_1)/window_size;
+for k = 1:window_size
+	M_0_pad(k*2 - 1) = M_0(k);
+	M_0_pad(k*2) = M_0(k);
+end
+[x0, y0] = stairs(f2, M_0_pad);
+[x1, y1] = stairs(f2, M_1);
+plot(x0, y0, "-;lo-res (wsize=777);", "Linewidth", 3, x1, y1, "-;hi-res (wsize=1554 zero-padded);", "Linewidth", 4)
+axis([2000 3000 0 1.08])
+```
+   risultato:
+
+   ![myDFT_zero_padding.jpg](./myDFT_zero_padding.jpg)
