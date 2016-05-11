@@ -1,8 +1,8 @@
 # Lezione del 15 aprile 2016
 
-![whiteboard](https://goo.gl/photos/NY8V4AQRuh1NPU8g9)
+![whiteboard](./BN_I_20160415_1.jpg)
 
-![whiteboard](https://goo.gl/photos/Thb4n5K9wozbbAh4A)
+![whiteboard](./BN_I_20160415_2.jpg)
 
 ## Argomenti
 
