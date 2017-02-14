@@ -1,7 +1,7 @@
-# Lezione del 20 gennaio 2017 (programmazione)
+# Lezione del 2 febbraio 2017 (programmazione)
 
-![whiteboard 1](./BN_II_20170120_1.jpg)
-![whiteboard 2](./BN_II_20170120_2.jpg)
+![whiteboard 1](./BN_II_20170203.jpg)
+![whiteboard 2](./BN_II_20170203.jpg)
 
 ## Argomenti
 
