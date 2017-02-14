@@ -1,7 +1,7 @@
 # Lezione del 2 febbraio 2017 (programmazione)
 
-![whiteboard 1](./BN_II_20170203.jpg)
-![whiteboard 2](./BN_II_20170203.jpg)
+![whiteboard 1](./BN_II_20170203_1.jpg)
+![whiteboard 2](./BN_II_20170203_2.jpg)
 
 ## Argomenti
 
