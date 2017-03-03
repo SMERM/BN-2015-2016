@@ -24,4 +24,4 @@ plot(ir)
 
 che produce
 
-![whiteboard](./BN_II_20170216.jpg)
+![impulse response](./BN_II_20170216.png)
